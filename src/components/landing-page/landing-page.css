@@ -1,0 +1,157 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #CEE7F5;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.logo h1 {
+    color: #324259;
+    font-size: 100px;
+    margin: 20px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo .recepcao {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.logo .recepcao h2 {
+    font-size: 35px;
+    color: #3F7CCC;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo .recepcao p {
+    font-size: 18px;
+    color: #324259;
+    margin-top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-frase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #324259;
+    margin: 0 10px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+#main-content img {
+    margin-top: 0;
+}
+
+#button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 50px;
+}
+
+#button-container .button-content {
+    font-size: 20px;
+    border: 0;
+    padding: 10px;
+    background-color: #324259;
+    border-radius: 10px;
+}
+
+#button-container .button-content text {
+    color: #FFF;
+    margin: auto 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+@media (min-width: 1100px) {
+    .container {
+        max-width: 1100px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-rows: 350px 1fr;
+        grid-template-areas: "eureka image image" "button texting texting";
+        gap: 100px;
+    }
+
+    .logo{
+        grid-area: eureka;
+        text-align: initial;
+        align-self: center;
+        width: 380px;
+        margin-top: 20px;
+    }
+
+    .logo h1 {
+        font-size: 120px;
+    }
+
+    .logo .recepcao {
+        margin: 0;
+    }
+
+    .logo .recepcao h2 {
+        font-size: 45px;
+    }
+    
+    .logo .recepcao p {
+        font-size: 18px;
+    }
+
+    #main-content{
+        grid-area: image;
+        align-self: center;
+    }
+
+    #main-content img {
+        width: 700px;
+        margin-top: 20px;
+    }
+
+    .main-frase{
+        grid-area: texting;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30px;
+    }
+
+    .main-frase p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    #button-container{
+        grid-area: button;
+    }
+
+    #button-container .button-content {
+        font-size: 22px;
+    }
+}

@@ -11,7 +11,7 @@ export default props => {
                             <img src="" alt="" />
                         </a>
 
-                        <img src="" alt="" />
+                    
                     </div>
 
                     <div className="header-content">

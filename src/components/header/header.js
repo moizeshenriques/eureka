@@ -1,6 +1,6 @@
 import React from 'react';
-import Home from '../../landing-page/landing-page';
-import Voltar from '../back.svg';
+import Home from '../landing-page/landing-page';
+import Voltar from '../form/back.svg';
 
 export default props => {
     return (

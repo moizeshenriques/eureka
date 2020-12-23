@@ -3,7 +3,7 @@ import React from 'react';
 import Aviso from './warning.svg';
 
 import './form.css';
-import Header from './header/header';
+import Header from '../header/header';
 
 export default class Formulario extends React.Component {
     render() {

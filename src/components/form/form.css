@@ -1,0 +1,242 @@
+#page-forms #container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F7F7F7;
+}
+
+body {
+    background-color: #F7F7F7;
+    margin-bottom: 3rem;
+}
+
+.page-header {
+    background-color: #CEE7F5;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header .top-bar-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.6rem 0;
+}
+
+.page-header .top-bar-container a {
+    height: 2rem;
+    transition: opacity 0.2s;
+    cursor: pointer;
+}
+
+.page-header .top-bar-container a:hover {
+    opacity: 0.6;
+}
+
+.page-header .top-bar-container p{
+    height: 2rem;
+    color: #324259;
+    font: 500 1.2rem Poppins, sans-serif;
+}
+
+.page-header .header-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.page-header .header-content strong {
+    font: 800 2rem Poppins, sans-serif;
+    line-height: 3rem;
+    color: #3F7CCC;
+}
+
+.page-header .header-content .primeiro-passo {
+    font: 500 0.9rem Poppins, sans-serif;
+    line-height: 1.5rem;
+    color: #324259;
+}
+
+.page-header .header-content .observacao {
+    font: 500 0.7rem Poppins, sans-serif;
+    line-height: 1.5rem;
+    color: #324259;
+}
+
+.page-header .header-content .observacao a{
+    text-decoration: none;
+    transition: font-size 0.2s;
+}
+
+.page-header .header-content .observacao a:hover{
+    font-size: 1rem;
+}
+
+#create-class {
+    margin-top: 2.5rem;
+    font-family: Poppins, sans-serif;
+}
+
+.input-block label, .textarea-block label{
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #9C98A6;
+}
+
+.input-block input, .textarea-block textarea {
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.3rem;
+    background-color: #F7F7F7;
+    border: 1px solid rgb(133, 133, 133);
+    outline: 0;
+    font: 1rem Poppins;
+}
+
+.textarea-block textarea {
+    padding-top: 0.5rem;
+    resize: vertical;
+}
+
+#create-class fieldset legend{
+    width: 100%;
+    font: 700 1.7rem Poppins, sans-serif;
+    margin-bottom: 0.5rem;
+    color: #3F7CCC;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(133, 133, 133);
+}
+
+main {
+    background-color: #FFF;
+    width: 100%;
+    max-width: 74rem;
+    border-radius: 0.5rem;
+    margin: 0 auto 3.2rem;
+    padding-top: 0.5rem;
+}
+
+main fieldset{
+    border: none;
+    padding: 0;
+    margin: 0 1rem;
+}
+
+main footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2.4rem ;
+
+    background-color: #FAFAFC;
+    border-top: 1px solid  rgb(133, 133, 133);
+
+    font: 1rem Poppins, sans-serif;
+}
+
+main footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main footer p img{
+    margin-right: 1rem;
+}
+
+main footer button {
+    width: 100%;
+    height: 3rem;
+    background-color: #324259;
+    color: #FFF;
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 500 1.5rem Poppins, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+    margin-top: 2rem;
+}
+
+main footer button:hover{
+    background-color: #3F7CCC;
+}
+
+@media (min-width: 1100px){
+    #page-forms #container {
+        max-width: 100vw;
+    }
+
+    .page-header .top-bar-container p{
+        font-size: 1.5rem;
+    }
+
+    .page-header .header-content {
+        margin: 0 27rem 3rem;
+    }
+
+    .page-header .header-content strong {
+        font-size: 2.5rem;
+    }
+
+    .page-header .header-content .primeiro-passo {
+        font-size: 1.3rem;
+    }
+
+    .page-header .header-content .observacao {
+        font-size: 1rem;
+    }
+
+    .page-header .header-content .observacao a:hover {
+        font-size: 1.2rem;
+    }
+
+    #container main{
+        width: 50%;
+        margin-top: -2.7rem;
+        border-radius: 1rem;
+    }
+
+    #container main fieldset {
+        padding: 0 64px;
+    }
+
+    .input-block label, .textarea-block label{
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+    }
+
+    .input-block input, .textarea-block textarea {
+        margin: 1rem 0;
+        height: 3rem;
+        font-size: 1.2rem;
+    }
+
+    main footer {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem 75px;
+    }
+
+    main footer p img {
+        width: 30%;
+    }
+
+    main footer p {
+        font-size: 1rem;
+    }
+
+    main footer button{
+        width: 40%;
+        margin-bottom: 2rem;
+    }
+}

@@ -8,19 +8,19 @@ body {
     align-items: center;
 }
 
-.logo {
+.container .logo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 300px;
 }
 
 .logo h1 {
     color: #324259;
     font-size: 100px;
     margin: 20px auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 .logo .recepcao {
@@ -33,14 +33,14 @@ body {
     font-size: 35px;
     color: #3F7CCC;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 .logo .recepcao p {
     font-size: 18px;
     color: #324259;
     margin-top: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: 600;
 }
 
@@ -57,8 +57,8 @@ body {
     justify-content: center;
     color: #324259;
     margin: 0 10px;
-    font-size: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.85rem;
+    font-family: Poppins, sans-serif;
     font-weight: 500;
 }
 
@@ -79,12 +79,18 @@ body {
     padding: 10px;
     background-color: #324259;
     border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#button-container .button-content:hover {
+    background-color: #3F7CCC;
 }
 
 #button-container .button-content text {
     color: #FFF;
     margin: auto 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: 600;
 }
 
@@ -103,11 +109,12 @@ body {
         text-align: initial;
         align-self: center;
         width: 380px;
-        margin-top: 20px;
+        margin-top: -400px;
     }
 
     .logo h1 {
-        font-size: 120px;
+        font-size: 110px;
+        margin: 0;
     }
 
     .logo .recepcao {
@@ -115,16 +122,19 @@ body {
     }
 
     .logo .recepcao h2 {
-        font-size: 45px;
+        font-size: 40px;
+        margin: 30px 0 20px;
     }
     
     .logo .recepcao p {
         font-size: 18px;
+        margin: 0 0 200px;
     }
 
     #main-content{
         grid-area: image;
         align-self: center;
+        margin-bottom: -80px;
     }
 
     #main-content img {
@@ -137,7 +147,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: -30px;
+        margin: -30px 0;
     }
 
     .main-frase p {
@@ -149,6 +159,8 @@ body {
 
     #button-container{
         grid-area: button;
+        margin-bottom: 70px;
+        margin-top: 30px;
     }
 
     #button-container .button-content {

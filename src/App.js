@@ -3,7 +3,7 @@ import Formulario from './components/form/formulario';
 
 function App() {
   return (
-    // <LandingPage/>
+    //<LandingPage/>
     <Formulario />
   );
 }

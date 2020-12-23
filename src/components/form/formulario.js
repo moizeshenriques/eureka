@@ -1,30 +1,18 @@
 import React from 'react';
-import Voltar from './back.svg';
+
 import Aviso from './warning.svg';
-import Home from '../landing-page/landing-page';
+
 import './form.css';
+import Header from '../header/header';
 
 export default class Formulario extends React.Component {
     render() {
         return (
             <body id="page-forms">
                 <div id="container">
-                    <header className="page-header">
-                        <div className="top-bar-container">
-                            <a href={Home}>
-                                <img src={Voltar} alt="Botão de Voltar" />
-                            </a>
-                            
-                            <p><a href={Home}>εύrekα</a></p>
+                    <Header title="Que incrível que você quer aprender" subtitle="O primeiro passo, é preencher esse formulário de inscrição." obs="OBS: se você já preencheu, não precisa preencher novamente. "/>
 
-                        </div>
-
-                        <div className="header-content">
-                            <strong>Que incrível que você quer aprender</strong>
-                            <p className="primeiro-passo">O primeiro passo, é preencher esse formulário de inscrição.</p>
-                            <p className="observacao">OBS: se você já preencheu, não precisa preencher novamente. <a href="/">Clique aqui!</a></p>
-                        </div>
-                    </header>
+                    
 
                     <main>
                         <form action="" id="create-class">

@@ -1,12 +1,8 @@
-#page-forms #container {
+#page-forms #container, #page-modules #container, #page-one #container, #page-fy #container {
     width: 100vw;
-    height: 100vh;
     background-color: #F7F7F7;
-}
-
-body {
-    background-color: #F7F7F7;
-    margin-bottom: 3rem;
+    margin: 0;
+    padding: 0;
 }
 
 .page-header {
@@ -28,6 +24,8 @@ body {
     height: 2rem;
     transition: opacity 0.2s;
     cursor: pointer;
+    text-decoration: none;
+    color: #324259;
 }
 
 .page-header .top-bar-container a:hover {
@@ -66,6 +64,7 @@ body {
 .page-header .header-content .observacao a{
     text-decoration: none;
     transition: font-size 0.2s;
+    cursor: pointer;
 }
 
 .page-header .header-content .observacao a:hover{
@@ -178,11 +177,14 @@ main footer button:hover{
     }
 
     .page-header .header-content {
-        margin: 0 27rem 3rem;
+        width: 50%;
+        margin-top: -2rem;
+        margin-bottom: 3rem;
+        padding-left: 2rem;
     }
 
     .page-header .header-content strong {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .page-header .header-content .primeiro-passo {
@@ -201,6 +203,8 @@ main footer button:hover{
         width: 50%;
         margin-top: -2.7rem;
         border-radius: 1rem;
+        margin-bottom: 0;
+        padding-bottom: 1rem;
     }
 
     #container main fieldset {

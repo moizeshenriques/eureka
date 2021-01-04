@@ -1,34 +1,28 @@
 import React from 'react';
+import '../form/form.css';
+import Voltar from '../form/back.svg';
+import Aviso from '../form/warning.svg';
+import '../future-you/future-you.css';
 
-import Aviso from './warning.svg';
-import Voltar from './back.svg';
-
-import './form.css';
-
-export default class Formulario extends React.Component {
+export default class FutureYou extends React.Component {
     render() {
         return (
-            <body id="page-forms">
+            <body id="page-fy">
                 <div id="container">
+
                     <header className="page-header">
                         <div className="top-bar-container">
-                            <a href="/">
+                            <a href="">
                                 <img src={Voltar} alt="Botão de Voltar" />
                             </a>
 
                             <p><a href="">εύrekα</a></p>
                         </div>
                         <div className="header-content">
-                            <strong>Que incrível que você quer aprender.</strong>
+                            <strong>Descubra como seria um embrião com seu DNA</strong>
 
                             <div className="primeiro-passo">
-                                <p>O primeiro passo, é preencher esse formulário de inscrição.</p>
-                            </div>
-
-                            <div className="observacao">
-                                <p>Se você já se cadastrou não precisa mais responder o questionário.
-                                    <a> Clique Aqui!</a>
-                                </p>
+                                <p>Preencha todas as informações e receba o seu resultado.</p>
                             </div>
                         </div>
                     </header>
@@ -39,23 +33,23 @@ export default class Formulario extends React.Component {
                                 <legend>Seus dados</legend>
 
                                 <div className="input-block">
-                                    <label for="name">Nome completo</label>
+                                    <label for="name">XXXXXXXXXXX</label>
                                     <input type="text" name="name" id="name" required />
                                 </div>
 
                                 <div className="input-block">
-                                    <label for="year">Em qual ano escolar você se encontra? <small>Se não estuda mais, coloque sua área de formação.</small></label>
+                                    <label for="year">XXXXXXXXX</label>
                                     <input type="text" name="year" id="year" required />
                                 </div>
 
                                 <div className="input-block">
-                                    <label for="age">Informe sua idade <small>Ex.: 18</small></label>
+                                    <label for="age">XXXXXXXXX</label>
                                     <input type="number" name="age" id="age" required />
                                 </div>
 
-                                <div className="textarea-block">
-                                    <label for="question">O que você mais gosta em genética?</label>
-                                    <textarea name="question" id="question" required></textarea>
+                                <div className="input-block">
+                                    <label for="age">XXXXXXXXX</label>
+                                    <input type="number" name="age" id="age" required />
                                 </div>
                             </fieldset>
                         </form>
@@ -66,13 +60,11 @@ export default class Formulario extends React.Component {
                                 Importante! <br /> Preencha todos os dados
                             </p>
 
-                            <button type="submit" form="create-class">Salvar cadastro</button>
+                            <button type="submit" form="create-class">Future You</button>
                         </footer>
                     </main>
                 </div>
             </body>
         );
-
     }
-
 }

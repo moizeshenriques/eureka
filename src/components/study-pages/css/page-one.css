@@ -1,0 +1,127 @@
+#container #information-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#information-container .image-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5rem auto 1rem;
+}
+
+#information-container .curiosity h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 700 2.5rem Poppins, sans-serif;
+    color: #324259;
+}
+
+#information-container .curiosity .vs {
+    color: #324259;
+    font: 500 1.1rem Poppins, sans-serif;
+    margin: 0 1rem;
+}
+
+#information-container .curiosity .text-top {
+    color: #3F7CCC;
+    font: 1rem Poppins, sans-serif;
+    margin: 0 1rem;
+    text-align: justify;
+}
+
+#content-box {
+    margin: 2rem 1rem;
+    border-top: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+#content-box p {
+    font: 1.2rem Poppins, sans-serif;
+    color: #324259;
+    margin: 2rem auto;
+    text-align: justify;
+}
+
+#button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-container .button {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border: 0;
+    background-color: #324259;
+    color: #FFF;
+    font: 500 1.3rem Poppins, sans-serif;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+#button-container .button:hover {
+    background-color: #3F7CCC;
+}
+
+@media(min-width: 1100px){
+    #container #information-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        margin: 2.5rem auto;
+    }
+
+    #information-container .image-top {
+        width: 150%;
+        margin-left: -5rem;
+    }
+
+    #information-container .curiosity {
+        margin-left: -5rem;
+        margin-right: 1.5rem;
+    }
+
+    #information-container .curiosity h1{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 1rem auto 1rem;
+        margin-left: 1rem;
+        font-size: 3.5rem;
+    }
+
+    #information-container .curiosity .vs {
+        font-size: 1.4rem;
+    }
+
+    #information-container .curiosity .text-top {
+        font-size: 1.25rem;
+    }
+
+    #content-box {
+        width: 67%;
+        margin: 3rem auto;
+    }
+
+    #content-box p {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+
+    #button-container {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 83.5%;
+    }
+}

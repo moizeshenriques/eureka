@@ -1,0 +1,136 @@
+#page-modules #container {
+    margin-bottom: 2rem;
+}
+
+#pi-container {
+    font: 500 1rem Poppins, sans-serif;
+    text-align: right;
+    margin-right: 1rem;
+}
+
+#pi-container p a {
+    text-decoration: none;
+    color: #324259;
+    transition: font-size 0.2s;
+}
+
+#pi-container p a:hover {
+    font-size: 1.1rem;
+}
+
+#box-content {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+#box-content .modulo-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    background: url(../modulos/background.jpeg);
+}
+
+#box-content .modulo-content img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: auto 12px;
+}
+
+#box-content .modulo-content h3, #box-content .modulo-content a{
+    margin: 0;
+    margin-top: 2px;
+    font: 700 1.5rem Poppins, sans-serif;
+    color: #324259;
+    text-decoration: none;
+    transition: font-size 0.2s;
+}
+
+#box-content .modulo-content a:hover {
+    font-size: 1.6rem;
+    opacity: 80%;
+}
+
+#box-content .modulo-content p{
+    margin: 0;
+    margin-right: 12px;
+    font: 500 0.9rem Poppins, sans-serif;
+    color: #3F7CCC;
+    text-align: justify;
+}
+
+#button-box{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-box .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #324259;
+    border: 0;
+    border-radius: 10px;
+    transition: background 0.2s;
+    padding: 0.8rem 1rem;
+    color: #FFF;
+    font: 600 1.2rem Poppins, sans-serif;
+    margin: auto;
+    cursor: pointer;
+}
+
+#button-box .button:hover {
+    background: #3F7CCC;
+} 
+
+@media(min-width: 1100px){
+    #pi-container {
+        margin: 0 27rem;
+    }
+
+    #pi-container p a {
+        font-size: 1.2rem;
+        transition: font-size 0.3s;
+    }
+
+    #pi-container p a:hover {
+        font-size: 1.3rem;
+        border-bottom: 1.2px solid #C2C2C2;
+    }
+
+    #container #box-content {
+        margin-top: 2.7rem;
+    }
+
+    #box-content .modulo-content {
+        margin-top: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        border-radius: 0.7rem;
+    }
+
+    #box-content .modulo-content img {
+        margin: 10px 1rem;
+    }
+
+    #box-content .modulo-content a:hover {
+        border-bottom: 1px solid #CCC;
+    }
+
+    #box-content .modulo-content p {
+        font-weight: 600;
+        margin-right: 2rem;
+    }
+
+    #button-box .button {
+        margin-bottom: 2rem;
+        padding: 0.8rem 6rem;
+        font-size: 1.5rem;
+    }
+}

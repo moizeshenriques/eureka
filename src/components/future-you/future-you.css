@@ -1,0 +1,11 @@
+.page-header .header-content strong {
+    font: 800 1.8rem Poppins, sans-serif;
+    line-height: 3rem;
+    color: #3F7CCC;
+}
+
+@media (min-width: 1100px){
+    .page-header .header-content strong {
+        font: 800 3rem Poppins, sans-serif;
+    }
+}

@@ -69,24 +69,20 @@ body{margin: 0;}
 }
 
 #button-cnt .button-content {
-    font-size: 20px;
     border: 0;
     padding: 10px;
     background-color: #324259;
     border-radius: 10px;
     cursor: pointer;
     transition: background 0.2s;
+    color: #FFF;
+    margin: auto 10px;
+    font: 600 1.5rem Poppins, sans-serif;
+    text-decoration: none;
 }
 
 #button-cnt .button-content:hover {
     background-color: #3F7CCC;
-}
-
-#button-cnt .button-content text {
-    color: #FFF;
-    margin: auto 10px;
-    font-family: Poppins, sans-serif;
-    font-weight: 600;
 }
 
 @media (min-width: 1100px) {

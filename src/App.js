@@ -1,16 +1,12 @@
-import LandingPage from './components/landing-page/landing-page';
-import Formulario from './components/form/formulario';
-import FutureYou from './components/future-you/future-you';
-import Modulos from './components/modulos/modulos';
-import PageOne from './components/study-pages/pages/page-one';
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './Routes';
 
 function App() {
   return (
-    // <LandingPage/>
-    // <Formulario/>
-    // <FutureYou />
-    // <Modulos />
-     <PageOne />
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
   );
 }
 

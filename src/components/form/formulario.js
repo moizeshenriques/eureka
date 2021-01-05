@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../Routes';
 
 import Aviso from './warning.svg';
 import Voltar from './back.svg';
@@ -12,11 +13,11 @@ export default class Formulario extends React.Component {
                 <div id="container">
                     <header className="page-header">
                         <div className="top-bar-container">
-                            <a href="/">
+                            <a href="/" to="/">
                                 <img src={Voltar} alt="Botão de Voltar" />
                             </a>
 
-                            <p><a href="">εύrekα</a></p>
+                            <p><a href="/" to="/">εύrekα</a></p>
                         </div>
                         <div className="header-content">
                             <strong>Que incrível que você quer aprender.</strong>
@@ -27,7 +28,7 @@ export default class Formulario extends React.Component {
 
                             <div className="observacao">
                                 <p>Se você já se cadastrou não precisa mais responder o questionário.
-                                    <a> Clique Aqui!</a>
+                                    <a href="/form/modulos" to="/form/modulos"> Clique Aqui!</a>
                                 </p>
                             </div>
                         </div>
@@ -66,7 +67,7 @@ export default class Formulario extends React.Component {
                                 Importante! <br /> Preencha todos os dados
                             </p>
 
-                            <button type="submit" form="create-class">Salvar cadastro</button>
+                            <button type="submit" form="create-class" href="/form/modulos">Salvar cadastro</button>
                         </footer>
                     </main>
                 </div>

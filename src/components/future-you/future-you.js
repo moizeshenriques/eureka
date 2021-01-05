@@ -3,6 +3,7 @@ import '../form/form.css';
 import Voltar from '../form/back.svg';
 import Aviso from '../form/warning.svg';
 import '../future-you/future-you.css';
+import '../../Routes';
 
 export default class FutureYou extends React.Component {
     render() {
@@ -12,11 +13,11 @@ export default class FutureYou extends React.Component {
 
                     <header className="page-header">
                         <div className="top-bar-container">
-                            <a href="">
+                            <a href="/forms/modules" to="/form/modules">
                                 <img src={Voltar} alt="Botão de Voltar" />
                             </a>
 
-                            <p><a href="">εύrekα</a></p>
+                            <p><a href="/" to="/">εύrekα</a></p>
                         </div>
                         <div className="header-content">
                             <strong>Descubra como seria um embrião com seu DNA</strong>

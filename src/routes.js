@@ -7,6 +7,7 @@ export default function HomeButton() {
   function handleClick() {
     history.push("/home");
   }
+  
 
   return (
     <button type="button" onClick={handleClick}>

@@ -90,6 +90,10 @@
 } 
 
 @media(min-width: 1100px){
+    #page-modules #container {
+        margin-bottom: 0;
+    }
+
     #pi-container {
         margin: 0 27rem;
     }
@@ -126,6 +130,11 @@
     #box-content .modulo-content p {
         font-weight: 600;
         margin-right: 2rem;
+    }
+
+    #container #button-box {
+        margin-top: 2rem;
+        margin-bottom: 0;
     }
 
     #button-box .button {

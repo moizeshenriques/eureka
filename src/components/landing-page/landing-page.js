@@ -2,7 +2,8 @@ import { Component } from 'react';
 import './landing-page.css';
 import Heart from "../landing-page/blue-heart.png";
 import Sublogo from "../landing-page/genetic-scientists.jpg";
-import Form from '../form/formulario';
+import '../../Routes';
+import Form from "../form/formulario";
 
 export default class LandingPage extends Component {
     render() {
@@ -28,9 +29,7 @@ export default class LandingPage extends Component {
                     </div>
 
                     <div id="button-cnt">
-                        <button onPress={Form} class="button-content">
-                            <text class="button-text">Vamos Estudar</text>
-                        </button>
+                        <a href="/form" to="/form" class="button-content">Vamos Estudar</a>
                     </div>
                 </div>
             </body>

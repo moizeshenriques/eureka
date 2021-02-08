@@ -167,7 +167,7 @@ export default class Modulos extends React.Component {
                     </main>
 
                     <div id="button-box">
-                        <button to="/form/modulos/future-you" class="button">Faça nosso teste FUTURE YOU</button>
+                        <a href="/form/modulos/future-you" class="button">Faça nosso teste FUTURE YOU</a>
                     </div>
 
                 </div>

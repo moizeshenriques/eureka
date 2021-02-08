@@ -67,7 +67,7 @@ export default class Formulario extends React.Component {
                                 Importante! <br /> Preencha todos os dados
                             </p>
 
-                            <button type="submit" form="create-class" href="/form/modulos">Salvar cadastro</button>
+                            <button type="submit" form="create-class">Salvar Cadastro</button>
                         </footer>
                     </main>
                 </div>

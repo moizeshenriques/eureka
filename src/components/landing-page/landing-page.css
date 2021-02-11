@@ -134,7 +134,8 @@ body{margin: 0;}
     }
 
     #main-content img {
-        width: 700px;
+        width: 600px;
+        margin-left: 30px;
         margin-top: 20px;
     }
 

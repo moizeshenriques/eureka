@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../../header/header';
+import Header from '../header/header';
 import Gregor from '../../modulos/gregor-mendel.jpg';
 import '../../form/form.css';
 import '../css/page-one.css';
@@ -8,6 +8,7 @@ export default class PageOne extends React.Component {
     render() {
         return (
             <body id="page-one">
+                <title>Eureka | Introdução à Genética</title>
                 <div id="container">
                     <Header />
 

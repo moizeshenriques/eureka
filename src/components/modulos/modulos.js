@@ -21,7 +21,7 @@ export default class Modulos extends React.Component {
                     </header>
 
                     <div id="pi-container">
-                        <p><a href="/">Vá para o nosso Painel Inspiração</a></p>
+                        <p><a href="/form/modulos/inspirational-panel" to="/form/modulos/inspirational-panel">Vá para o nosso Painel Inspiração</a></p>
                     </div>
 
                     <main id="box-content">

@@ -9,7 +9,6 @@ export default class FutureYou extends React.Component {
     render() {
         return (
             <body id="page-fy">
-                <title>Eureka | Future You</title>
                 <div id="container">
 
                     <header className="page-header">

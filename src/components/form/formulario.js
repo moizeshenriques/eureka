@@ -10,7 +10,6 @@ export default class Formulario extends React.Component {
     render() {
         return (
             <body id="page-forms">
-                <title>Eureka | Cadastrar-se</title>
                 <div id="container">
                     <header className="page-header">
                         <div className="top-bar-container">

@@ -9,6 +9,7 @@ export default class Modulos extends React.Component {
     render() {
         return (
             <body id="page-modules">
+                <title>Eureka | Módulos</title>
                 <div id="container">
                     <header className="page-header">
                         <div className="top-bar-container">

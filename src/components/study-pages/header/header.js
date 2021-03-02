@@ -1,6 +1,6 @@
 import React from 'react';
-import Voltar from '../form/back.svg';
-import '../../Routes';
+import Voltar from '../../form/back.svg';
+import '../../../Routes';
 
 export default props => {
     return (
@@ -10,7 +10,11 @@ export default props => {
                     <img src={Voltar} alt="Botão de Voltar" />
                 </a>
 
-                <p><a href="/" to="/">εύrekα</a></p>
+                <p>
+                    <a href="/" to="/">
+                        εύrekα
+                    </a>
+                </p>
             </div>
         </header>
     )

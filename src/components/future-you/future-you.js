@@ -13,7 +13,7 @@ export default class FutureYou extends React.Component {
 
                     <header className="page-header">
                         <div className="top-bar-container">
-                            <a href="/forms/modules" to="/form/modules">
+                            <a href="/form/modulos" to="/form/modulos">
                                 <img src={Voltar} alt="Botão de Voltar" />
                             </a>
 

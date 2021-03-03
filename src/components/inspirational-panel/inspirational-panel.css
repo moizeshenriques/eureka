@@ -1,5 +1,9 @@
+#container .header-content strong {
+    font-size: 2.05rem;
+}
+
 #container .header-phrase p {
-    font: 500 1.2rem Poppins, sans-serif;
+    font: 500 1rem Poppins, sans-serif;
     line-height: 1.5rem;
     color: #324259;
 }
@@ -14,7 +18,7 @@
     font: 500 1rem Poppins, sans-serif;
     color: #3a3644;
     background: transparent;
-    width: 50%;
+    width: 98%;
 }
 
 #box-content .comment-container {
@@ -51,4 +55,66 @@
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 0;
+}
+
+@media (min-width: 1100px) {
+    #container .header-content strong {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    #container .header-phrase p {
+        font: 500 1.2rem Poppins, sans-serif;
+        line-height: 1.5rem;
+        color: #324259;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        margin-top: 0;
+    }
+    
+    #box-content {
+        font: 500 1rem Poppins, sans-serif;
+        color: #3a3644;
+        background: transparent;
+        width: 50%;
+    }
+    
+    #box-content .comment-container {
+        margin: 2rem;
+        background: #FFF;
+    }
+    
+    #box-content .comment-header {
+        padding: 1rem 1rem 0.7rem;
+    }
+    
+    #box-content .comment-content {
+        padding: 0 1rem 1rem;
+    }
+    
+    #box-content .comment-header h3 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    
+    #box-content .comment-header span {
+        font-size: 1.2rem;
+        font-weight: normal;
+        padding-left: 0.5rem;
+    }
+    
+    #box-content .comment-header p {
+        margin: 0;
+        font-size: 1.1rem;
+        font-weight: normal;
+    }
+    
+    #box-content .comment-content p {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
 }

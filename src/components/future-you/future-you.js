@@ -33,24 +33,97 @@ export default class FutureYou extends React.Component {
                             <fieldset>
                                 <legend>Seus dados</legend>
 
+                                <label>Masculino</label>
                                 <div className="input-block">
-                                    <label for="name">XXXXXXXXXXX</label>
-                                    <input type="text" name="name" id="name" required />
+                                    <label for="">Tipo sanguíneo</label>
+                                    <select>
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option selected value="AB">AB</option>
+                                        <option value="O">O</option>
+                                    </select>
                                 </div>
 
                                 <div className="input-block">
-                                    <label for="year">XXXXXXXXX</label>
-                                    <input type="text" name="year" id="year" required />
+                                    <label for="">Fator RH</label>
+                                    <select>
+                                        <option value="positivo">Positivo</option>
+                                        <option value="negativo">Negativo</option>
+                                    </select>
                                 </div>
 
                                 <div className="input-block">
-                                    <label for="age">XXXXXXXXX</label>
-                                    <input type="number" name="age" id="age" required />
+                                    <label for="">Daltonismo</label>
+                                    <select>
+                                        <option value="no">Não</option>
+                                        <option value="nob">Não, mas portador</option>
+                                        <option value="yes">Sim</option>
+                                    </select>
                                 </div>
 
                                 <div className="input-block">
-                                    <label for="age">XXXXXXXXX</label>
-                                    <input type="number" name="age" id="age" required />
+                                    <label for="">Hemofilia</label>
+                                    <select>
+                                        <option value="no">Não</option>
+                                        <option value="nob">Não, mas portador</option>
+                                        <option value="yes">Sim</option>
+                                    </select>
+                                </div>
+
+                                <div className="input-block">
+                                    <label for="">Albinismo</label>
+                                    <select>
+                                        <option value="no">Não</option>
+                                        <option value="nob">Não, mas portador</option>
+                                        <option value="yes">Sim</option>
+                                    </select>
+                                </div>
+
+                                <label>Feminino</label>
+
+                                <div className="input-block">
+                                    <label for="">Tipo sanguíneo</label>
+                                    <select>
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option selected value="AB">AB</option>
+                                        <option value="O">O</option>
+                                    </select>
+                                </div>
+
+                                <div className="input-block">
+                                    <label for="">Fator RH</label>
+                                    <select>
+                                        <option value="positivo">Positivo</option>
+                                        <option value="negativo">Negativo</option>
+                                    </select>
+                                </div>
+
+                                <div className="input-block">
+                                    <label for="">Daltonismo</label>
+                                    <select>
+                                        <option value="no">Não</option>
+                                        <option value="nob">Não, mas portadora</option>
+                                        <option value="yes">Sim</option>
+                                    </select>
+                                </div>
+
+                                <div className="input-block">
+                                    <label for="">Hemofilia</label>
+                                    <select>
+                                        <option value="no">Não</option>
+                                        <option value="nob">Não, mas portadora</option>
+                                        <option value="yes">Sim</option>
+                                    </select>
+                                </div>
+
+                                <div className="input-block">
+                                    <label for="">Albinismo</label>
+                                    <select>
+                                        <option value="no">Não</option>
+                                        <option value="nob">Não, mas portadora</option>
+                                        <option value="yes">Sim</option>
+                                    </select>
                                 </div>
                             </fieldset>
                         </form>

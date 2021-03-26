@@ -4,6 +4,7 @@ import Form from './components/form/formulario';
 import Modulos from './components/modulos/modulos';
 import PageOne from './components/study-pages/pages/page-one';
 import FutureYou from './components/future-you/future-you';
+import PainelInspiracao from './components/inspirational-panel/inspirational-panel';
 
 import { Route, Switch } from 'react-router-dom';
 
@@ -24,6 +25,9 @@ export default () => {
             </Route>
             <Route exact path="/form/modulos/future-you">
                 <FutureYou />
+            </Route>
+            <Route exact path="/form/modulos/inspirational-panel">
+                <PainelInspiracao />
             </Route>
         </Switch>
     );

@@ -1,4 +1,7 @@
-export function BloodResult (bloodMom, bloodDad) {
+export function BloodResult () {
+    let bloodDad = document.getElementsByClassName('bloodTypeDad');
+    let bloodMom = document.getElementsByClassName('bloodTypeMom');
+
     if (bloodMom.equals("1") && bloodDad.isEqual("1")) {
         return "TIPO SANGUÍNEO: A" + "DOADOR PARA: A e AB";
     } else if (bloodMom.equals("1") && bloodDad.equals("2")) {

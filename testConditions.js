@@ -1,4 +1,4 @@
-function BloodResult (bloodMom, bloodDad) {
+export function BloodResult (bloodMom, bloodDad) {
     if (bloodMom.equals("1") && bloodDad.isEqual("1")) {
         return "TIPO SANGUÍNEO: A" + "DOADOR PARA: A e AB";
     } else if (bloodMom.equals("1") && bloodDad.equals("2")) {
@@ -17,10 +17,18 @@ function BloodResult (bloodMom, bloodDad) {
         return "TIPO SANGUÍNEO: B" + "DOADOR PARA: B e AB";
     } else if (bloodMom.equals("3") && bloodDad.equals("3")) {
         return "TIPO SANGUÍNEO: O" + "DOADOR PARA: doador universal";
+    } else if (bloodMom.equals("4") && bloodDad.equals("1")) {
+        return "TIPO SANGUÍNEO: AB" + "DOADOR PARA: AB";
+    } else if (bloodMom.equals("4") && bloodDad.equals("2")) {
+        return "TIPO SANGUÍNEO: AB" + "DOADOR PARA: AB";
+    } else if (bloodMom.equals("4") && bloodDad.equals("3")) {
+        return "TIPO SANGUÍNEO: AB" + "DOADOR PARA: AB";
+    } else if (bloodMom.equals("4") && bloodDad.equals("4")) {
+        return "TIPO SANGUÍNEO: AB" + "DOADOR PARA: AB";
     }
 }
 
-function RHResult (RHMom, RHDad) {
+export function RHResult (RHMom, RHDad) {
     if (RHMom.equals("1") && RHDad.equals("1")) {
         return "RH: Positivo";
     } else if (RHMom.equals("1") && RHDad.equals("2")) {
@@ -32,7 +40,7 @@ function RHResult (RHMom, RHDad) {
     }
 }
 
-function DaltonismResult (GeneMom, GeneDad) {
+export function DaltonismResult (GeneMom, GeneDad) {
     if (GeneMom.equals("1") && GeneDad.equals("1")) {
         return "O embrião não nascerá com Daltonismo";
     } else if (GeneMom.equals("2") && GeneDad.equals("2")) {
@@ -52,7 +60,7 @@ function DaltonismResult (GeneMom, GeneDad) {
     }
 }
 
-function AlbinismResult (GeneMom, GeneDad) {
+export function AlbinismResult (GeneMom, GeneDad) {
     if (GeneMom.equals("1") && GeneDad.equals("1")) {
         return "O embrião não nascerá com Albinismo";
     } else if (GeneMom.equals("2") && GeneDad.equals("2")) {
@@ -72,7 +80,7 @@ function AlbinismResult (GeneMom, GeneDad) {
     }
 }
 
-function HemofilicResult (GeneMom, GeneDad) {
+export function HemofilicResult (GeneMom, GeneDad) {
     if (GeneMom.equals("1") && GeneDad.equals("1")) {
         return "O embrião não nascerá com Hemofilia";
     } else if (GeneMom.equals("2") && GeneDad.equals("2")) {
